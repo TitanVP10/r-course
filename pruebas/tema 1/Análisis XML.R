@@ -19,3 +19,13 @@ head(cds.catalog)
 
 #Primer 5 filas, todas las columnas
 cds.catalog[1:5,]
+
+population_url <- '../R Data Science/r-course/data/tema1/WorldPopulation-wiki.htm'
+tables <- readHTMLTable(population_url)
+
+
+most_populated <- tables[[6]]
+head(most_populated, 3)
+
+custom_table <- readHTMLTable(population_url, which = 6)
+
