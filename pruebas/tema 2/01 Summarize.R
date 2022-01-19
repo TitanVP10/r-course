@@ -28,12 +28,14 @@ quantile(x)
 ### MEDIDAS DE DISPERSIÓN
 var(x)
 sd(x)
-cv(x) #desv est / mean * 100 porque es porcentaje
+#cv(x) #desv est / mean * 100 porque es porcentaje
 
+### MEDIDAS DE ASIMETRÍA
 
+skewness(x)
+kurtosis(x)
 
-
-
+hist(x)
 
 
 
